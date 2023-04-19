@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Barber.Cortes"
+             Title="Cortes"
+             Shell.BackgroundColor="#f1dabf"
+             Shell.TitleColor="black">
+    
+    <VerticalStackLayout
+        BackgroundColor="Black"
+    
+    >
+        <Label
+            Margin="50"
+            HorizontalOptions="Center"
+            Text="Cortes"
+            FontSize="30"
+            TextColor="White"
+            ></Label>
+
+        
+        <Border Stroke="#fff"
+            Margin="20"
+            StrokeThickness="4"
+            Padding="16,8"
+            HorizontalOptions="Center">
+            <Border.StrokeShape>
+                <RoundRectangle CornerRadius="20" />
+            </Border.StrokeShape>
+            <Entry
+                HorizontalOptions="Center"
+                WidthRequest="280"
+                TextColor="Black"
+                FontSize="20"
+                BackgroundColor="White"
+                Placeholder=""
+            
+                >
+            </Entry>
+        </Border>
+        <Border Stroke="#fff"
+            Margin="20"
+            StrokeThickness="4"
+            Padding="16,8"
+            HorizontalOptions="Center">
+            <Border.StrokeShape>
+                <RoundRectangle CornerRadius="20" />
+            </Border.StrokeShape>
+            <Entry
+                HorizontalOptions="Center"
+                WidthRequest="280"
+                TextColor="Black"
+                FontSize="20"
+                BackgroundColor="White"
+                Placeholder=""
+            
+                >
+            </Entry>
+        </Border>
+        <Border Stroke="#fff"
+            Margin="20"
+            StrokeThickness="4"
+            Padding="16,8"
+            HorizontalOptions="Center">
+            <Border.StrokeShape>
+                <RoundRectangle CornerRadius="20" />
+            </Border.StrokeShape>
+            <Entry
+                HorizontalOptions="Center"
+                WidthRequest="280"
+                TextColor="Black"
+                FontSize="20"
+                BackgroundColor="White"
+                Placeholder=""
+            
+                >
+            </Entry>
+        </Border>
+        <Button
+            BackgroundColor="#f1dabf"
+            TextColor="Black"
+            Margin="30"
+            Text="Concluir"
+            WidthRequest="280"
+            FontSize="22"
+            ></Button>
+        
+    </VerticalStackLayout>
+</ContentPage>
